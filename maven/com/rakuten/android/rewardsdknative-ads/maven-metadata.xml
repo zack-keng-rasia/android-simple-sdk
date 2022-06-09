@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.rakuten.android</groupId>
-  <artifactId>rewardsdknative-core</artifactId>
+  <artifactId>rewardsdknative-ads</artifactId>
   <versioning>
     <latest>4.0.1</latest>
     <release>4.0.1</release>
