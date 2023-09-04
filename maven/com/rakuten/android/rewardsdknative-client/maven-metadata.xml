@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.rakuten.android</groupId>
-  <artifactId>rewardsdknative-ui</artifactId>
+  <artifactId>rewardsdknative-client</artifactId>
   <versioning>
     <latest>0.0.1</latest>
     <release>0.0.1</release>
