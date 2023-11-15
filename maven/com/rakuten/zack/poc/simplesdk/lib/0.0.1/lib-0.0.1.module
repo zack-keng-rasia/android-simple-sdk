@@ -1,0 +1,64 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.rakuten.zack.poc.simplesdk",
+    "module": "lib",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.rakuten.zack.poc.simplesdk",
+          "module": "core",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "com.rakuten.zack.poc.simplesdk",
+          "module": "widget",
+          "version": {
+            "requires": "0.0.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.rakuten.zack.poc.simplesdk",
+          "module": "core",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "com.rakuten.zack.poc.simplesdk",
+          "module": "widget",
+          "version": {
+            "requires": "0.0.1"
+          }
+        }
+      ]
+    }
+  ]
+}
