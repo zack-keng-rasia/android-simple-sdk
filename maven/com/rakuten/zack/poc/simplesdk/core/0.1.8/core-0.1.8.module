@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.rakuten.zack.poc.simplesdk",
+    "module": "core",
+    "version": "0.1.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.1.8.aar",
+          "url": "core-0.1.8.aar",
+          "size": 5079,
+          "sha512": "949b2a30b1e07338056043aa5b35108efbc68c2db159b1e76fd067c494705c69e5e621c7579fdf07b582591f7cdc9a3818e34c6030b70e7162ab3f7d964dd9c3",
+          "sha256": "3afd78814c57a04022507805ad15b9740fb9ef4f8a61fa5b72af7baa7b87fab1",
+          "sha1": "02c1df7478162c1ef77baa8b7b8bfbb51d064dbc",
+          "md5": "5ca36ddb52642d9a22fd3d97724930d4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.1.8.aar",
+          "url": "core-0.1.8.aar",
+          "size": 5079,
+          "sha512": "949b2a30b1e07338056043aa5b35108efbc68c2db159b1e76fd067c494705c69e5e621c7579fdf07b582591f7cdc9a3818e34c6030b70e7162ab3f7d964dd9c3",
+          "sha256": "3afd78814c57a04022507805ad15b9740fb9ef4f8a61fa5b72af7baa7b87fab1",
+          "sha1": "02c1df7478162c1ef77baa8b7b8bfbb51d064dbc",
+          "md5": "5ca36ddb52642d9a22fd3d97724930d4"
+        }
+      ]
+    }
+  ]
+}
