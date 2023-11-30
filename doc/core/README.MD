@@ -1,6 +1,10 @@
 [TOP](../../README.md#top)　> Core API  
 
 Table of Contents  
+* [RakutenReward](#rakutenauth)  
+* [RakutenRewardCoroutine](#rakutenrewardcoroutine)  
+* [RakutenAuth](#rakutenauth)  
+* [RakutenRewardConfig](#rakutenrewardconfig)  
 
 ---  
 
@@ -58,7 +62,7 @@ when (result) {
 
 | API Name         | Description                                                             | 
 |------------------|-------------------------------------------------------------------------|
-| isOptedOut       | Get Optout status <br>true : Optout (Reward SDK function does not work) |
+| isOptedOut       | Get Optout status <br><b>true</b> : Optout (Reward SDK function does not work) |
 | setOptedOut      | Set Optout status                                                       | 
 | isUiEnabled      | Get whether Notification UI is enabled or not                           | 
 | setUiEnabled     | Set whether Notification UI is enabled or not                           |
@@ -67,4 +71,7 @@ when (result) {
 
 <br>  
 
----  
+---
+LANGUAGE :
+> [![ja](../lang/ja.png)](../ja/core/README.md)
+

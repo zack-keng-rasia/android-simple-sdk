@@ -1,6 +1,18 @@
 [TOP](../../README.md#top)　> API Data  
 
 Table of Contents  
+* [MissionAchievementData](#missionachievementdata)  
+* [MissionData](#missiondata)  
+* [RakutenRewardPointHistory](#rakutenrewardpointhistory)  
+* [RakutenRewardPoint](#rakutenrewardpoint)  
+* [RakutenRewardUser](#rakutenrewarduser)  
+* [Status](#status)  
+  * [RakutenRewardSDKStatus](#rakutenrewardsdkstatus)  
+  * [RakutenRewardClaimStatus](#rakutenrewardclaimstatus)  
+  * [RakutenRewardConsentStatus](#rakutenrewardconsentstatus)  
+  * [RewardApiResult](#rewardapiresult)  
+  * [RakutenRewardAPIError](#rakutenrewardapierror)  
+  * [Last Failed Method](#last-failed-method)  
 
 ---  
 
@@ -81,7 +93,7 @@ RakutenRewardUser is user data class.
 
 <br>
 
-## RakutenRewardClaimStatus
+### RakutenRewardClaimStatus
 
 | Enum    | Description           |
 |---------|-----------------------|
@@ -157,3 +169,7 @@ SDK provides information about failed method to handle error easily.
 | GETMISSIONLIST | getMissions                    |  
 | PROVIDE_CONSENT | provideConsent |
 
+
+---
+LANGUAGE :
+> [![ja](../lang/ja.png)](../ja/apiData/README.md)  

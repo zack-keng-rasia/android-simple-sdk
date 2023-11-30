@@ -1,5 +1,20 @@
 [TOP](/README.md#top)　>　[Core API](./README.md)　>  RakutenReward  
 
+Table of Contents  
+* [Properties](#properties)  
+* [Public Methods](#public-methods)  
+  * [RakutenRewardListener](#rakutenrewardlistener)  
+  * [Mission List](#mission-list)  
+  * [Point History](#point-history)  
+  * [Unclaimed Items](#unclaimed-items)  
+  * [Init API](#init-api)  
+  * [Post Mission Action](#post-mission-action)  
+  * [Member Informations](#member-informations)  
+  * [Open Reward Web Page](#open-reward-web-page)  
+  * [Set Rakuten Cookie](#set-rakuten-cookie)  
+  * [Request for Consent](#request-for-consent)  
+  * [Start SDK Session](#start-sdk-session)  
+
 ---  
 # RakutenReward
 RakutenReward class provides main settings and main functions of Reward SDK.  
@@ -352,4 +367,7 @@ Manually start SDK session.  When SDK is ONLINE, `onSDKStatusChanged` will be tr
 RakutenReward.startSession()
 ```
 
----  
+---
+LANGUAGE :
+> [![ja](../lang/ja.png)](../ja/core/RakutenReward.md)
+
