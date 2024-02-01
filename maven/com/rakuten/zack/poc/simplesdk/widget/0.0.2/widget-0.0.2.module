@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.rakuten.zack.poc.simplesdk",
+    "module": "widget",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.1.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "widget-0.0.2.aar",
+          "url": "widget-0.0.2.aar",
+          "size": 14075,
+          "sha512": "92e2fd561996dec0a7bf0044f7e661ca22d8821af56331a151098d41e4440b8dc608ef97ac2413d33b9ae2d5a9d978e222ceee33d7ca81990b3c4af8ff80249c",
+          "sha256": "b0d89fd7071ee27378f5f5c81e9b0874d32a6e14e3e8ddb0e26eeddc4089edaf",
+          "sha1": "715417cff9d14f7084725eaf116f58bee231af0d",
+          "md5": "931a84185e8821b4fe3f9758c7b1afa6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.1.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "widget-0.0.2.aar",
+          "url": "widget-0.0.2.aar",
+          "size": 14075,
+          "sha512": "92e2fd561996dec0a7bf0044f7e661ca22d8821af56331a151098d41e4440b8dc608ef97ac2413d33b9ae2d5a9d978e222ceee33d7ca81990b3c4af8ff80249c",
+          "sha256": "b0d89fd7071ee27378f5f5c81e9b0874d32a6e14e3e8ddb0e26eeddc4089edaf",
+          "sha1": "715417cff9d14f7084725eaf116f58bee231af0d",
+          "md5": "931a84185e8821b4fe3f9758c7b1afa6"
+        }
+      ]
+    }
+  ]
+}

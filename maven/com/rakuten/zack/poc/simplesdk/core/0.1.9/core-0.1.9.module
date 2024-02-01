@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.rakuten.zack.poc.simplesdk",
+    "module": "core",
+    "version": "0.1.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.1.9.aar",
+          "url": "core-0.1.9.aar",
+          "size": 6865,
+          "sha512": "32edd3b81ac0aa320b3ab3d6077cb1efac4ebaf1f42f5e404df4f768b8bf69e2648ef26e22f8385cb6e096ccb73d3c59d95e663fff0d9f4a2d56ed019d59fc6f",
+          "sha256": "22b1666708c02507f25bc8fd7e6d1e92867e7ce7c9047f2a3639294d795ce93e",
+          "sha1": "650728e540bdecb85122faefb43f5d1a938f8785",
+          "md5": "dc61d8ebc0ccb09249a67ce1446e82a2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.1.9.aar",
+          "url": "core-0.1.9.aar",
+          "size": 6865,
+          "sha512": "32edd3b81ac0aa320b3ab3d6077cb1efac4ebaf1f42f5e404df4f768b8bf69e2648ef26e22f8385cb6e096ccb73d3c59d95e663fff0d9f4a2d56ed019d59fc6f",
+          "sha256": "22b1666708c02507f25bc8fd7e6d1e92867e7ce7c9047f2a3639294d795ce93e",
+          "sha1": "650728e540bdecb85122faefb43f5d1a938f8785",
+          "md5": "dc61d8ebc0ccb09249a67ce1446e82a2"
+        }
+      ]
+    }
+  ]
+}
